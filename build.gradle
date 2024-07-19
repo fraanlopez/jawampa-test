@@ -43,7 +43,6 @@ artifactory {
             repoKey = System.getenv('MVN_KEY')
             username = System.getenv('MVN_USER')
             password = System.getenv('MVN_PASSWORD')
-            maven = true
         }
         defaults {
             publications('mavenJava')
